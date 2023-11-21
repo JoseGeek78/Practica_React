@@ -1,5 +1,7 @@
-function PrimerComponente() {
-    return ( <h1>Hola Mundo!</h1> );
+export const PrimerComponente = () => {
+  return (
+    <div>
+      <h1>Primer Componente</h1>
+      </div>
+  )
 }
-
-export default PrimerComponente
