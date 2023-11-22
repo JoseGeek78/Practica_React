@@ -1,10 +1,12 @@
 import "./PrimerComponente.css";
 
-export const PrimerComponente = ( props ) => {
-  console.log(props)
+export const PrimerComponente = ({ titulo, subtitulo }) => {
+  console.log(titulo);
+  console.log(subtitulo);
   return (
     <>
-      <h1>Props:</h1>
-      </>
+      <h1> {titulo} </h1>
+      <h2> {subtitulo} </h2>
+    </>
   );
 };
