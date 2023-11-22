@@ -1,8 +1,8 @@
+import PropTypes from 'prop-types'
 import "./PrimerComponente.css";
 
 export const PrimerComponente = ({ titulo, subtitulo }) => {
-  console.log(titulo);
-  console.log(subtitulo);
+  
   return (
     <>
       <h1> {titulo} </h1>
@@ -10,3 +10,13 @@ export const PrimerComponente = ({ titulo, subtitulo }) => {
     </>
   );
 };
+
+PrimerComponente.protTypes = {
+  titulo: PropTypes.string.isRequired,
+  subtitulo: PropTypes.string.isRequired
+}
+
+PrimerComponente.defaultoProps = {
+  titulo: 'Práctica de React',
+  subtitulo: 'Sección de Props'
+}
