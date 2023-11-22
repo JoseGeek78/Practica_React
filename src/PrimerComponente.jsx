@@ -1,10 +1,10 @@
+import "./PrimerComponente.css";
+
 const string = "Esto es un texto";
 const number = 123456;
 const array = ["Práctica React", "Hola", 10000];
 const boolean = true;
-const funcion = () => 1 + 1;
-const objeto = { nombre: "Práctica de React", duración: 40 };
-const fecha = new Date();
+const funcion = () => 1987 + 78891;
 
 export const PrimerComponente = () => {
   return (
