@@ -8,6 +8,6 @@ const fecha = new Date();
 
 export const PrimerComponente = () => {
   return (
-    <h1>{ funcion() }</h1>
+    <h1>{ JSON.stringify(fecha) }</h1>
   );
 };
