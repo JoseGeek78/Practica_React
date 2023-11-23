@@ -4,3 +4,8 @@ html {
   color: white;
   padding: 2%;
 }
+button {
+  color: rgb(6, 34, 10);
+  width: 10%;
+  border-radius: 15%;
+}

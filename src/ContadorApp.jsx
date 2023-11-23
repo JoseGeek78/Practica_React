@@ -1,3 +1,13 @@
+const Button = () => {
+  return (
+    <button>Soy un botón</button>
+  )
+}
+
 export const ContadorApp = () => {
-  return <h1>ContadorApp</h1>;
+  return (
+    <>
+    <Button></Button>
+    </>
+  )
 };
