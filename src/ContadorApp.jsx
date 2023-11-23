@@ -1,4 +1,5 @@
 export const ContadorApp = ({ value }) => {
+  
   const handleClick = () => {
     value += 1;
     console.log(value);
