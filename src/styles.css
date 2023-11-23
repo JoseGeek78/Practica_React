@@ -5,7 +5,8 @@ html {
   padding: 2%;
 }
 button {
+  background-color: blueviolet;
   color: rgb(6, 34, 10);
-  width: 10%;
+  width: 15%;
   border-radius: 15%;
 }

@@ -1,13 +1,10 @@
-const Button = () => {
-  return (
-    <button>Soy un botón</button>
-  )
-}
+
 
 export const ContadorApp = () => {
   return (
     <>
-    <Button></Button>
+    <h1>Contador:</h1>
+    <button>Soy un botón</button>
     </>
   )
 };
