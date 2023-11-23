@@ -5,6 +5,6 @@ import "./Styles.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <ContadorApp />
+    <ContadorApp value={0}/>
   </React.StrictMode>
 );
