@@ -5,7 +5,7 @@ export const ContadorApp = ({ value }) => {
   const [contador, setContador] = useState( value )
   
   const handleClick = () => {
-    setContador(contador + 1)
+    setContador(contador + 100)
   };
 
   return (
